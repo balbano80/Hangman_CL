@@ -1,0 +1,23 @@
+{
+  "name": "hangman_cl",
+  "version": "1.0.0",
+  "description": "hangman style game using command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balbano80/Hangman_CL.git"
+  },
+  "author": "Bryan Albano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balbano80/Hangman_CL/issues"
+  },
+  "homepage": "https://github.com/balbano80/Hangman_CL#readme",
+  "dependencies": {
+    "inquirer": "^5.2.0"
+  },
+  "devDependencies": {}
+}
