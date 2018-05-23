@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/balbano80/Hangman_CL#readme",
   "dependencies": {
+    "colors": "^1.3.0",
     "inquirer": "^5.2.0"
   },
   "devDependencies": {}

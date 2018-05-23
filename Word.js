@@ -1,11 +1,11 @@
 var letter = require("./Letter.js");
 
-var Word = function(){
+var Word = function(targetWord){
     this.wordArr = [];
     this.createArr = function(targetWord){
         for (var i = 0; i < targetWord.length; i++){
-            var tempLetter = new letter.Letter();
-            tempLetter.character = targetWord[i];
+            var tempLetter = new letter(targetWord[i]);
+            // tempLetter.character = targetWord[i];
             this.wordArr.push(tempLetter);
         }
     };
@@ -23,9 +23,7 @@ var Word = function(){
     };
 };
 
-module.exports = {
-    Word: Word
-};
+module.exports = Word;
 
 // var aWord = new Word();
 // aWord.createArr("somewhere");

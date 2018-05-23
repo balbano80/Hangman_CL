@@ -1,7 +1,7 @@
 
 
-var Letter = function(){
-    this.character =  "";
+var Letter = function(char){
+    this.character = char;
     this.isGuessed = false;
     this.display = function(){
         if (this.isGuessed){
@@ -22,9 +22,7 @@ var Letter = function(){
     };
 };
 
-module.exports = {
-    Letter: Letter
-}
+module.exports = Letter;
 // var aLetter = new Letter();
 // aLetter.character = "a";
 
